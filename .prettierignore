@@ -1,0 +1,30 @@
+# dependencies
+node_modules
+.pnp
+.yarn
+
+# build output
+dist
+build
+out
+coverage
+
+# system
+.DS_Store
+.env
+.env.*
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# generated
+*.min.js
+*.bundle.js
+*.map
